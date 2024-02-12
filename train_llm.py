@@ -69,7 +69,7 @@ def train_epoch(model, train_loader, optimizer, device, tokenizer):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name = "llmware/bling-falcon-1b-0.1"
 tokenizer = AutoTokenizer.from_pretrained(model_name, revision="main", 
-                                          auth_token="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")
+                                          auth_token="*******************************")
 
 tokenizer.add_special_tokens({'pad_token': '[PAD]'})
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.bfloat16)
