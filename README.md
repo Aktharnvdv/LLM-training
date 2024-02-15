@@ -1,6 +1,6 @@
 # Fine-Tuning 1-B Falcon Language Model
 
-This repository contains a script for fine-tuning the Bling Falcon Language Model on a custom dataset using the Hugging Face Transformers library. The model is fine-tuned for a conversational language understanding task with a dataset provided in the `train_data.json` file.
+This repository contains a script for fine-tuning the 1B Falcon Language Model on a custom dataset using the Hugging Face Transformers library. The model is fine-tuned for a conversational language understanding task with a dataset provided in the `train_data.json` file.
 
 ## Requirements
 
